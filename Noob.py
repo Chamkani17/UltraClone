@@ -191,10 +191,10 @@ while (loop == 'true'):
         os.system('xdg-open https://m.youtube.com/channel/UCElYTLsUjYpkBbCgu3kZd8Q')
 print logo
     print "\x1b[1;93m[\x1b[1;92mPUHTOON\033[1;93m] \033[1;93m[1] First Follow Me On Facebook"
-    print "\x1b[1;93m[\x1b[1;92m✔️PUHTOON✔️\033[1;93m] \033[1;93m[0] Exit"
+    print "\x1b[1;93m[\x1b[1;92mPUHTOON\033[1;93m] \033[1;93m[0] Exit"
     pilih_login()
 def pilih_login():
-    peak = raw_input('\n\x1b[1;91m[\x1b[1;91m✔️ROCK✔️\033[1;91m] \x1b[1;95m[◈] \x1b[1;95mChoose an Option:\x1b[1;98m')
+    peak = raw_input('\n\x1b[1;91m[\x1b[1;91mROCK\033[1;91m] \x1b[1;95m[] \x1b[1;95mChoose an Option:\x1b[1;98m')
     if peak == '':
         print '\x1b[1;91mFill In Correctly'
         pilih_login()
